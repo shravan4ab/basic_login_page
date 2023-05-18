@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>animated login form</title>
+    <link rel="stylesheet" type="text/css" href="go.css">
+    <script src="security.php"></script>
+</head>
+<style>
+    body{
+        background-image: url('yu.jpg');
+    }
+</style>
+<body>
+    <div class="center">
+<h1> Students signup</h1>
+<form action ="connect.php" method="post">
+    <div class="txt_field">
+        <input required type="text" class="form-control" id="username" required name="username">
+        <span></span>
+        <label>Username</label>
+    </div> 
+    <div class="txt_field">
+        <input required type="text" class="form-control" id="email" required name="email">
+        <span></span>
+        <label for="email"> College Email ID</label>
+    </div> 
+     <div class="txt_field">
+        <input required type="text" class="form-control" id="password" required name="password">
+        <span></span>
+        <label>Password</label>
+    </div>
+    </div>
+    <div>
+        <p id="length"></p>
+    </div>
+    <input type="submit" onclick="validate(connect.php)" value="signup">
+    <div class="signup_link">
+        already have a account? <a href='test.html'>login</a>
+</form>
+
+</div>
+<p></p>
+</body>
+</html>
