@@ -2,10 +2,13 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>animated login form</title>
-    <link rel="stylesheet" type="text/css" href="go.css">
+    <title>animated signup form</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="security.php"></script>
 </head>
+<nav>
+   
+</nav>
 <style>
     body{
         background-image: url('yu.jpg');
@@ -16,25 +19,23 @@
 <h1> Students signup</h1>
 <form action ="connect.php" method="post">
     <div class="txt_field">
-        <input required type="text" class="form-control" id="username" required name="username">
+        <input required type="username" name="username" id="username" required>
         <span></span>
-        <label>Username</label>
-    </div> 
+        <label>username</label>
     <div class="txt_field">
-        <input required type="text" class="form-control" id="email" required name="email">
+        <input required type="email" name="email" id="email" required>
         <span></span>
-        <label for="email"> College Email ID</label>
+        <label>College Email ID</label>
     </div> 
      <div class="txt_field">
-        <input required type="text" class="form-control" id="password" required name="password">
+        <input required type="password" name="password" id="password" required>
         <span></span>
         <label>Password</label>
-    </div>
     </div>
     <div>
         <p id="length"></p>
     </div>
-        <div><input type="submit" onclick="validate(connect.php)" value="signup"></div>
+    <div><input type="submit" value="signup"></div>
     <div class="signup_link">
         already have a account? <a href='test.html'>login</a>
 </form>
