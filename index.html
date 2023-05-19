@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>animated login form</title>
+    <link rel="stylesheet" type="text/css" href="go.css">
+    <script src="security.php"></script>
+</head>
+<nav>
+    <div class="menu">
+        <a href='teacher.html'>teacher's login</a>
+        <a href='hod.html'>hod's login</a>
+        <a href='principal.html'>principal's login</a>
+        <a href='#'>help</a>
+    </div>
+</nav>
+<style>
+    body{
+        background-image: url('yu.jpg');
+    }
+</style>
+<body>
+    <div class="center">
+<h1> Students login</h1>
+<form action ="" method="post">
+    <div class="txt_field">
+        <input required type="username" id="username" required>
+        <span></span>
+        <label>College Email ID</label>
+    </div> 
+     <div class="txt_field">
+        <input required type="password" id="username" required>
+        <span></span>
+        <label>Password</label>
+    </div>
+    <div>
+        <p id="length"></p>
+    </div>
+    <div class="pass">forgot password?</div>
+    <input type="submit" onclick="validate(verify.php)" value="login">
+    <div class="signup_link">
+        not a member? <a href='royston.html'>signup</a>
+</form>
+
+</div>
+<p></p>
+</body>
+</html>
